@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgro"
+    tools:context="com.example.asus.yudha_1202154203_modul6.SignUp">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="SIGN UP"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="textEmailAddress"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:id="@+id/upuser"
+            android:layout_marginBottom="10dp"
+            android:padding="15dp"
+            android:background="@drawable/edittextbackground"
+            android:hint="E-MAIL"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:inputType="textPassword"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:id="@+id/uppass"
+            android:padding="15dp"
+            android:background="@drawable/edittextbackground"
+            android:hint="PASSWORD"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:background="#373737"
+            android:textColor="#ffffff"
+            android:onClick="daftarin"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="SIGN UP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
+

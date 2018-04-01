@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgro2"
+    tools:context="com.example.asus.yudha_1202154203_modul6.upload">
+
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:onClick="setfoto"
+            android:id="@+id/gambardiupload"
+            android:background="#eeeeee"
+            android:scaleType="centerInside"
+            android:src="@drawable/add_image"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="200dp" />
+
+        <EditText
+            android:id="@+id/bikinposttitle"
+            android:singleLine="true"
+            android:hint="Title"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/bikinpostcaption"
+            android:hint="Write your post"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:onClick="uploadingambar"
+        android:src="@android:drawable/ic_menu_save"
+        android:layout_margin="25dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:scaleType="center"
+        app:backgroundTint="#373737"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+</android.support.design.widget.CoordinatorLayout>
+
