@@ -13,19 +13,29 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login">
+        <activity
+            android:name="Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".home" />
-        <activity android:name=".home_semua" />
-        <activity android:name=".home_user" />
-        <activity android:name=".post" />
-        <activity android:name=".SignUp" />
-        <activity android:name=".upload"></activity>
+        <activity
+            android:name="SignUp"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name="home"
+            android:label="popotoan"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="upload"
+            android:label="Upload Image"
+            android:parentActivityName=".home"/>
+        <activity
+            android:name="post"
+            android:theme="@style/Theme.Design.Light.NoActionBar"/>
     </application>
 
 </manifest>

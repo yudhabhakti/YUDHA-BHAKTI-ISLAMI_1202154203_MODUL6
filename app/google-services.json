@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "581811922518-8t91vomujbp41qtvii4priqf07j3efn3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.yudha_1202154203_modul6",
+            "certificate_hash": "37dae137b36ebe28fc2d5e09858bec3f24f1d002"
+          }
+        },
+        {
           "client_id": "581811922518-sck7grjr2qatq54f4mn4kd49qq1eln9a.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581811922518-sck7grjr2qatq54f4mn4kd49qq1eln9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
